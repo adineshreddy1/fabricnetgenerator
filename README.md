@@ -57,14 +57,14 @@ The future versions of this tool is aimed to support multi-vm , K8S complient an
 1. Download latest fabricnetgen from the releases tab
 2. Change the permission to make it an executable 
  ```sh
-    chmod a+x fabricnetgen
+    chmod a+x fabricnetgenerator
  ```  
 3. Put the fabricnetgen some where so that it is in PATH  
 4. Create a network-config.json ( Refer to the example given in the respository).
 5. Generate the scripts and other configs
+Make sure that fabricnetgenerator is generated and assign executable permissions to generated fabricnetgenerator
     ```sh
-    fabricnetgen <path to the network-config json file name>
-    
+    ./fabricnetgenerator <config.json  file>
  
      ```
 6. Follow the instructions generated in README.txt file.
